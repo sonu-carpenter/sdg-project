@@ -1,0 +1,420 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 1rem;
+    color: white;
+  }
+  
+  header .logo {
+    max-width: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #tip-list .tip-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .rating {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .upvote, .downvote {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  }
+  
+  /* blogs stlye */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 1rem;
+    color: white;
+  }
+  
+  header .logo {
+    max-width: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  article {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  article h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  }
+
+  /* contact us style */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 1rem;
+    color: white;
+  }
+  
+  header .logo {
+    max-width: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  #team {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .team-member {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .team-member h3 {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  }
+
+  /* for tips */
+
+#browse-tips {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  #tip-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .tip-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .tip-item h3 {
+    margin-top: 0;
+  }
+  
+  .tip-item p {
+    margin: 0;
+  }
+  
+  @media (max-width: 800px) {
+    #browse-tips {
+      padding: 1rem;
+    }
+  }
+  
+  /* footer */
+  footer {
+    background-color: #4CAF50;
+    padding: 1rem 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
